@@ -1,0 +1,10 @@
+-- Inserir usuários (senha: 123456 criptografada)
+INSERT INTO usuarios (nome, email, senha) VALUES
+('João Silva', 'joao@email.com', '$2a$10$N9qo8uLOickgx2ZMRZoMy.MqrqQzFPLvJ3CfdiZ2hLfF8QjYqJ5ZC'),
+('Maria Souza', 'maria@email.com', '$2a$10$N9qo8uLOickgx2ZMRZoMy.MqrqQzFPLvJ3CfdiZ2hLfF8QjYqJ5ZC');
+
+-- Inserir cursos
+INSERT INTO cursos (nome, categoria) VALUES
+('Spring Boot', 'Programação'),
+('Java OO', 'Programação'),
+('Banco de Dados', 'Dados');
